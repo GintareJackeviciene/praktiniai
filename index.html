@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        height: 660px;
+        margin: 0;
+        background-image: url(Background\ Attachment\ Css\ foto\ compartilhado\ por\ Tiffi\ 15.jpg);
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding-left: 90px;
+        justify-content: space-around;
+        width: 320px;
+    }
+
+    .form h2 {
+        font-size: xx-large;
+        color: rgb(104, 103, 103);
+    }
+
+    span {
+        text-decoration: underline;
+        text-decoration-color: rgb(125, 125, 223);
+    }
+
+    .input-field input::placeholder {
+        font-size: 15px;
+    }
+    .login {
+        display: flex;
+        width: 800px;
+        height: 385px;
+        background-color: rgb(207, 207, 207);
+        margin: 0 auto;
+        gap: 100px;
+    }
+
+    .image {
+        background-image: url(photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 50px;
+    }
+
+    .input-field input {
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid black;
+    }
+
+    .image .text {
+        color: rgb(36, 22, 22);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .image .text p {
+        margin-top: -28px;
+        font-size: smaller;
+    }
+
+    .form a {
+        text-decoration: none;
+
+    }
+
+    .form button {
+        border-radius: 5px;
+        background-color: rgb(125, 125, 223);
+        padding: 8px 97px;
+    }
+
+    .input-field i {
+        color: rgb(125, 125, 223);
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="form">
+                <h2><span>Lo</span>gin</h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <a href="#">Forgot password?</a><br>
+                <button><a href="#">Login</a></button>
+                <p>Don't have an account? <a href="#">Singup now</a></p>
+            </div>
+            <div class="image">
+                <div class="text">
+                    <h3>Every new friend is a new adventure.</h3>
+                    <p>let's get connected</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
